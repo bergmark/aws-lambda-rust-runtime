@@ -16,7 +16,7 @@
         "application": "myApplication",
         "deploymentId": "d-123456789",
         "state": "SUCCESS",
-        "deploymentGroup": "myDeploymentGroup"
+        "deploymentGroup": "myDeploymentGroup",
+        "lifecycleEventHookExecutionId": "execution-id"
     }
 }
-

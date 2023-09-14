@@ -63,6 +63,8 @@ pub struct CodeDeployEventDetail {
     /// DeploymentGroup is the name of the deployment group.
     #[serde(default)]
     pub deployment_group: Option<String>,
+    #[serde(default)]
+    pub lifecycle_event_hook_execution_id: Option<String>,
 }
 
 #[cfg(test)]
